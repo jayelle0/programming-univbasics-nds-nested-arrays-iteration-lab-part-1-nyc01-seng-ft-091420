@@ -5,7 +5,7 @@ aoa = [ [10, 11], [99, 50, 3, 4], [23, 41] ]
 count = 0 
 while count < aoa.length do 
   inner_count = 0 
-  while inner count < aoa[count].length do
+  while inner_count < aoa[count].length do
     if aoa[count][inner_count].even?
       p aoa[count][inner_count]
       inner_count += 1
