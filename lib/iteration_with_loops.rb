@@ -3,9 +3,9 @@ aoa = [ [10, 11], [99, 50, 3, 4], [23, 41] ]
 
   # Output all even values in each nested array
 row = 0 
-while row < aoa.count do 
+while row < src.length do 
   element = 0 
-  while element < src[row].count do
+  while element < src[row].length do
     if src[row][element].even?
       p src[row][element]
       element += 1
